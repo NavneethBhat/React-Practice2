@@ -3,14 +3,27 @@ import React from 'react'
 import Blogs from './Blogs';
 import NoPage from './NoPage';
 import Contact from './Contact';
-import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 
-const Home=() =>  {
+
+
+function Home() {
+    let navigate=useNavigate()
+    console.log("test");
+
+    const handleButton=()=>{
+        navigate("/blogs")
+    }
+
+
+
+
   return (
 
     <div>
-        Home
+        
+        <button onClick={handleButton}>Click Here</button>
+
     </div>
   )
 }

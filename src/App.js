@@ -28,9 +28,9 @@ function App() {
       <BrowserRouter>
       <Routes>
           <Route path='/' element={<Layout/>}> </Route>
-          <Route path='blogs' element={<Blogs/>}></Route>
+          <Route path='/blogs' element={<Blogs/>}></Route>
           <Route path='nopage' element={<NoPage/>}></Route>
-          <Route path='home' element={<Home/>}></Route>
+          <Route path='/home' element={<Home/>}></Route>
           <Route path='contact' element={<Contact/>}></Route>
       </Routes>
       </BrowserRouter>
