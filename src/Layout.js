@@ -5,6 +5,7 @@ import NoPage from './NoPage';
 import Contact from './Contact';
 import { Link } from 'react-router-dom';
 
+
 const Layout=() =>  {
   return (
     <div>
@@ -21,6 +22,9 @@ const Layout=() =>  {
         </li>
         <li>
           <Link to="/nopage">No Page</Link>
+        </li>
+        <li>
+        <Link to="/newfile1">NewFile11</Link>
         </li>
       </ul>
     </nav>

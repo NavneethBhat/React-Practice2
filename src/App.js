@@ -6,6 +6,7 @@ import Blogs from './Blogs';
 import Contact from './Contact';
 import Home from './Home';
 import NoPage from './NoPage';
+import NewFile1 from './NewFile1';
 
 function App() {
   return (
@@ -29,9 +30,10 @@ function App() {
       <Routes>
           <Route path='/' element={<Layout/>}> </Route>
           <Route path='/blogs' element={<Blogs/>}></Route>
-          <Route path='nopage' element={<NoPage/>}></Route>
+          <Route path='/nopage' element={<NoPage/>}></Route>
           <Route path='/home' element={<Home/>}></Route>
-          <Route path='contact' element={<Contact/>}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/newfile1' element={<NewFile1/>}/>
       </Routes>
       </BrowserRouter>
     </div>
