@@ -16,6 +16,12 @@ function Home() {
     }
 
 
+    // Local Storage Methods
+    let key=prompt("Enter the key")
+    let value=prompt("Enter the Value")
+
+    localStorage.setItem(key,value)
+    console.log(`The value at ${key} is ${localStorage.getItem(key)}`)
 
 
   return (
@@ -23,6 +29,8 @@ function Home() {
     <div>
         
         <button onClick={handleButton}>Click Here</button>
+
+
 
     </div>
   )

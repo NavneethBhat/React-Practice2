@@ -8,9 +8,16 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const Contact=() =>  {
+
+  const mystyle={
+    color: "white",
+    padding: "10px",
+    backgroundColor: "Blue"
+  };
   return (
  <div>
-    Contact
+    <h1 style={mystyle}>Hello Style!</h1>
+    <p>This is a paragraph.</p>
  </div>
   );
 }
