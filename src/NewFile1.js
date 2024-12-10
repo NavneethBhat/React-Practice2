@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 
 
+
 const NewFile1 = () => {
 
 
@@ -22,7 +23,7 @@ const NewFile1 = () => {
             }
 
   return (
-    <div className='flex flex-col justify-center items-center h-screen'>
+    <div className='flex flex-col justify-center items-center h-screen w-full'>
             <p className='bg-purple-500 px-14 py-2 justify-center items-center rounded w-[60px] h-[40px] flex '> {count} </p> <br/>
             <button className='bg-orange-600 px-20 py-2 justify-center items-center rounded w-[60px] h-[40px] flex ' onClick={handleButton1}>Increment</button><br/>
             <button className='bg-blue-500 px-20 py-2 justify-center items-center rounded w-[60px] h-[40px] flex ' onClick={handleButton}>Decrement</button><br/>
