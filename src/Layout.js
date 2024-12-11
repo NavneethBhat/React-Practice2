@@ -3,6 +3,7 @@ import Home from './Home';
 import Blogs from './Blogs';
 import NoPage from './NoPage';
 import Contact from './Contact';
+import Responsiveness from './Responsiveness';
 import { Link } from 'react-router-dom';
 
 
@@ -10,7 +11,7 @@ const Layout=() =>  {
   return (
     <div>
         <nav>
-      <ul>
+      <ol>
         <li>
           <Link to="/home">Home</Link>
         </li>
@@ -24,9 +25,15 @@ const Layout=() =>  {
           <Link to="/nopage">No Page</Link>
         </li>
         <li>
-        <Link to="/newfile1">NewFile11</Link>
+        <Link to="/newfile1">NewFile1</Link>
         </li>
-      </ul>
+        <li>
+        <Link to="/responsiveness">Responsiveness</Link>
+        </li>
+        <li>
+        <Link to="/cards">Cards</Link>
+        </li>
+      </ol>
     </nav>
     
 

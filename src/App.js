@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
@@ -7,6 +7,8 @@ import Contact from './Contact';
 import Home from './Home';
 import NoPage from './NoPage';
 import NewFile1 from './NewFile1';
+import Responsiveness from './Responsiveness';
+import CardList from './Cards';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route path='/home' element={<Home/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/newfile1' element={<NewFile1/>}/>
+          <Route path='/cards' element={<CardList/>}/>
+          <Route path='/responsiveness' element={<Responsiveness/>}/>
       </Routes>
       </BrowserRouter>
     </div>
