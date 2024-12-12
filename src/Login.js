@@ -24,10 +24,10 @@ function Login() {
     };
 
   return (
-    <div className='flex justify-center items-center'>
-        <input type="text" placeholder='email' name='email' value={email} className='border-2 border-black' onChange={(e)=>setEmail(e.target.value)}/><br/>
-        <input type="password" placeholder='password' name='password' value={password} className='border-2 border-black' onChange={(e)=>setPassword(e.target.value)} /> <br/>
-        <button onClick={handleLogin} className='border-2'>Submit</button>
+    <div className='flex flex-col justify-center items-center'>
+        <input type="text" placeholder='Email' name='email' value={email} className='border-2 border-black' onChange={(e)=>setEmail(e.target.value)}/><br/>
+        <input type="password" placeholder='Password' nandeme='password' value={password} className='border-2 border-black' onChange={(e)=>setPassword(e.target.value)} /> <br/>
+        <button onClick={handleLogin} className='rounded-lg bg-blue-500 text-white p-2'>Submit</button>
     </div>
   )
 }
