@@ -9,6 +9,7 @@ import NoPage from './NoPage';
 import NewFile1 from './NewFile1';
 import Responsiveness from './Responsiveness';
 import CardList from './Cards';
+import Login from './Login';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path='/newfile1' element={<NewFile1/>}/>
           <Route path='/cards' element={<CardList/>}/>
           <Route path='/responsiveness' element={<Responsiveness/>}/>
+          <Route path='/login' element={<Login/>}/>
       </Routes>
       </BrowserRouter>
     </div>
