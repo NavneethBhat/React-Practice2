@@ -10,6 +10,7 @@ import NewFile1 from './NewFile1';
 import Responsiveness from './Responsiveness';
 import CardList from './Cards';
 import Login from './Login';
+import Getitems from './Getitems';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path='/cards' element={<CardList/>}/>
           <Route path='/responsiveness' element={<Responsiveness/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/getitems' element={<Getitems/>}/>
       </Routes>
       </BrowserRouter>
     </div>

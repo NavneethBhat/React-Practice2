@@ -18,7 +18,7 @@ function Login() {
 
         } catch (error) {
             console.log("Error")
-            
+
         }
         
     };
